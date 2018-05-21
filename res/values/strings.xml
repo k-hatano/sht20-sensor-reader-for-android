@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<resources>
+    <string name="app_name">SHT20 Sensor Reader for Android</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_central">CentralActivity</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string name="ok">OK</string>
+    <string name="no">No</string>
+    <string name="yes">Yes</string>
+    <string name="app_description_long">SHT20\nSensor Reader\nfor Android</string>
+    <string name="beacon_mode">Beacon Mode</string>
+    <string name="sensor_mode">Sensor Mode</string>
+</resources>
