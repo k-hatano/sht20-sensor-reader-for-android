@@ -37,6 +37,22 @@
             android:name=".SettingsActivity"
             android:label="@string/title_activity_settings" >
         </activity>
+        <activity
+            android:name=".BeaconActivity"
+            android:label="@string/title_activity_beacon"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="jp.nita.sht20_sensor_reader_for_android.MainActivity" />
+        </activity>
+        <activity
+            android:name=".SensorActivity"
+            android:label="@string/title_activity_sensor"
+            android:parentActivityName=".MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="jp.nita.sht20_sensor_reader_for_android.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

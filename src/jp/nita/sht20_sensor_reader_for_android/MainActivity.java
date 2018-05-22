@@ -6,6 +6,9 @@ import android.bluetooth.BluetoothManager;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 
 public class MainActivity extends Activity {
 
@@ -23,6 +26,26 @@ public class MainActivity extends Activity {
 			startActivity(enableBtIntent);
 			return;
 		}
+
+		((Button)findViewById(R.id.button_beacon_mode)).setOnClickListener(new OnClickListener(){
+
+			@Override
+			public void onClick(View arg0) {
+				Intent intent = new Intent(MainActivity.this, BeaconActivity.class);
+				startActivity(intent);
+			}
+
+		});
+
+		((Button)findViewById(R.id.button_sensor_mode)).setOnClickListener(new OnClickListener(){
+
+			@Override
+			public void onClick(View arg0) {
+				Intent intent = new Intent(MainActivity.this, SensorActivity.class);
+				startActivity(intent);
+			}
+
+		});
 	}
 
 }

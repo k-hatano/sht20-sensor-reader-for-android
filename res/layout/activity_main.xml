@@ -42,13 +42,13 @@
             android:layout_centerInParent="true" >
 
             <Button
-                android:id="@+id/beacon_mode"
+                android:id="@+id/button_beacon_mode"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/beacon_mode" />
 
             <Button
-                android:id="@+id/sensor_mode"
+                android:id="@+id/button_sensor_mode"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/sensor_mode" />

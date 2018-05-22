@@ -6,4 +6,6 @@
 
     <dimen name="app_description">32dp</dimen>
 
+    <dimen name="block_padding">8dp</dimen>
+
 </resources>
